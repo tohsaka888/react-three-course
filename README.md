@@ -12,4 +12,8 @@
 `react-three-fiber`中`camera`好像只能通过`Canvas`创建????
 实际使用`perspectiveCamera`,设置位置和`lookAt`好像无效???
 
-> 待确认
+> 已解决
+
+### `axesHelper` 设置 `material`
+
+不能直接通过标签属性修改(ts报错),使用ref hook+effect hook修改
