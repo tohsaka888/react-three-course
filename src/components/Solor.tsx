@@ -2,7 +2,7 @@
  * @Author: tohsaka888
  * @Date: 2022-07-27 08:49:17
  * @LastEditors: tohsaka888
- * @LastEditTime: 2022-07-27 10:14:51
+ * @LastEditTime: 2022-07-27 11:48:01
  * @Description: 请填写简介
  */
 
@@ -10,10 +10,6 @@ import React from 'react'
 import { Canvas } from '@react-three/fiber'
 import Sun from './Sun'
 import useScreenSize from '../hooks/useScreenSize'
-import Earth from './Earth'
-import { useRef } from 'react'
-import { PerspectiveCamera } from 'three'
-import { useEffect } from 'react'
 
 function Solor() {
   const { width, height } = useScreenSize()
@@ -39,7 +35,6 @@ function Solor() {
         camera.lookAt(0, 0, 0)
       }}>
       <scene>
-        {/* <perspectiveCamera position={[0, 50, 0]} up={[0, 0, 1]} fov={40} aspect={width / height} near={0.1} far={1000} ref={cameraRef} /> */}
         {/* 创建一个点光源 */}
         <pointLight color={0xffffff} intensity={3} />
         <Sun />
