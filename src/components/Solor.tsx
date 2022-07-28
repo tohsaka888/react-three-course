@@ -2,7 +2,7 @@
  * @Author: tohsaka888
  * @Date: 2022-07-27 08:49:17
  * @LastEditors: tohsaka888
- * @LastEditTime: 2022-07-27 11:48:01
+ * @LastEditTime: 2022-07-28 09:14:48
  * @Description: 请填写简介
  */
 
@@ -24,7 +24,7 @@ function Solor() {
   return (
     <Canvas
       camera={{
-        position: [0, 50, 0],
+        position: [0, 40, -50],
         up: [0, 0, 1],
         fov: 40,
         aspect: width / height,

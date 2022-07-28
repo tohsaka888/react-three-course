@@ -2,7 +2,7 @@
  * @Author: tohsaka888
  * @Date: 2022-07-27 10:09:51
  * @LastEditors: tohsaka888
- * @LastEditTime: 2022-07-27 14:04:27
+ * @LastEditTime: 2022-07-28 09:19:47
  * @Description: 请填写简介
  */
 
@@ -25,7 +25,7 @@ function Moon() {
 
   return (
     <mesh position={[3, 0, 0]} ref={moonRef}>
-      <sphereGeometry args={[0.5, 6, 6]} />
+      <sphereGeometry args={[0.5, 16, 16]} />
       <meshPhongMaterial color={0xcecece} emissive={0x222222} />
       <axesHelper renderOrder={1} ref={axesRef} args={[1]} />
     </mesh>
