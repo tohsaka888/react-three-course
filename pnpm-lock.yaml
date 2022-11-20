@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@react-three/fiber': 8.2.2
+  '@react-three/fiber': 8.9.1
   '@testing-library/jest-dom': 5.16.4
   '@testing-library/react': 13.3.0
   '@testing-library/user-event': 14.3.0
@@ -19,7 +19,7 @@ specifiers:
   typescript: 4.7.4
 
 dependencies:
-  '@react-three/fiber': 8.2.2_5kidazjkmgjhxqotnaqokpbepa
+  '@react-three/fiber': 8.9.1_5kidazjkmgjhxqotnaqokpbepa
   '@testing-library/jest-dom': 5.16.4
   '@testing-library/react': 13.3.0_biqbaboplfbrettd7655fr4n2y
   '@testing-library/user-event': 14.3.0
@@ -32,7 +32,7 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
   react-router-dom: 6.3.0_biqbaboplfbrettd7655fr4n2y
   react-scripts: 5.0.1_qtbnez4q7bzoc4eqybg3efzzxe
-  react-spring: 9.5.2_4s5fgi4ficat65f3svadl5hcry
+  react-spring: 9.5.2_zft377bijpe65wcexxdwiqptlm
   three: 0.142.0
   typescript: 4.7.4
 
@@ -2009,7 +2009,7 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@react-spring/three/9.5.2_6mtgxp5k6atzbvbbcnlc4nwv5q:
+  /@react-spring/three/9.5.2_jam5cszomvydnhypobnfwqwz6m:
     resolution: {integrity: sha512-3H7Lv8BJZ3dajh0yJA3m9rEbqz5ZNrTCAkhVOeLqgvBlcWU5qVs4luYA1Z7H4vZnLqVtzv+kHAyg3XIpuTOXhQ==}
     peerDependencies:
       '@react-three/fiber': '>=6.0'
@@ -2020,7 +2020,7 @@ packages:
       '@react-spring/core': 9.5.2_react@18.2.0
       '@react-spring/shared': 9.5.2_react@18.2.0
       '@react-spring/types': 9.5.2
-      '@react-three/fiber': 8.2.2_5kidazjkmgjhxqotnaqokpbepa
+      '@react-three/fiber': 8.9.1_5kidazjkmgjhxqotnaqokpbepa
       react: 18.2.0
       three: 0.142.0
     dev: false
@@ -2059,8 +2059,8 @@ packages:
       react-dom: 18.2.0_react@18.2.0
     dev: false
 
-  /@react-three/fiber/8.2.2_5kidazjkmgjhxqotnaqokpbepa:
-    resolution: {integrity: sha512-NO/tOCYK8SQ2vuM2y2r98054X4SMGYIlHgiVRNaSo6JiXyoT3FN0aIH1nDzhDFJ5N/2C/PKa+yeg2M2/8YDFJg==}
+  /@react-three/fiber/8.9.1_5kidazjkmgjhxqotnaqokpbepa:
+    resolution: {integrity: sha512-xRMO9RGp0DkxSFu5BmmkjCxJ4r0dEpLobtxXdZwI0h2rZZaCnkPM5zThRN8xaZNbZhzRSVICeNOFaZltr9xFyQ==}
     peerDependencies:
       expo: '>=43.0'
       expo-asset: '>=8.4'
@@ -2083,6 +2083,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.18.9
       '@types/react-reconciler': 0.26.7
+      its-fine: 1.0.6_react@18.2.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-reconciler: 0.27.0_react@18.2.0
@@ -2534,6 +2535,12 @@ packages:
 
   /@types/react-reconciler/0.26.7:
     resolution: {integrity: sha512-mBDYl8x+oyPX/VBb3E638N0B7xG+SPk/EAMcVPeexqus/5aTpTphQi0curhhshOqRrc9t6OPoJfEUkbymse/lQ==}
+    dependencies:
+      '@types/react': 18.0.15
+    dev: false
+
+  /@types/react-reconciler/0.28.0:
+    resolution: {integrity: sha512-5cjk9ottZAj7eaTsqzPUIlrVbh3hBAO2YaEL1rkjHKB3xNAId7oU8GhzvAX+gfmlfoxTwJnBjPxEHyxkEA1Ffg==}
     dependencies:
       '@types/react': 18.0.15
     dev: false
@@ -5852,6 +5859,15 @@ packages:
       istanbul-lib-report: 3.0.0
     dev: false
 
+  /its-fine/1.0.6_react@18.2.0:
+    resolution: {integrity: sha512-VZJZPwVT2kxe5KQv+TxCjojfLiUIut8zXDNLTxcM7gJ/xQ/bSPk5M0neZ+j3myy45KKkltY1mm1jyJgx3Fxsdg==}
+    peerDependencies:
+      react: '>=18.0'
+    dependencies:
+      '@types/react-reconciler': 0.28.0
+      react: 18.2.0
+    dev: false
+
   /jake/10.8.5:
     resolution: {integrity: sha512-sVpxYeuAhWt0OTWITwT98oyV0GsXyMlXCF+3L1SuafBVUIr/uILGRB+NqwkzhgXKvoJpDIpQvqkUALgdmQsQxw==}
     engines: {node: '>=10'}
@@ -8181,6 +8197,12 @@ packages:
   /react-dev-utils/12.0.1_5h25ija3xpc2rfdjgit4izdexa:
     resolution: {integrity: sha512-84Ivxmr17KjUupyqzFode6xKhjwuEJDROWKJy/BthkL7Wn6NJ8h4WE6k/exAv6ImS+0oZLRRW5j/aINMHyeGeQ==}
     engines: {node: '>=14'}
+    peerDependencies:
+      typescript: '>=2.7'
+      webpack: '>=4'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
     dependencies:
       '@babel/code-frame': 7.18.6
       address: 1.2.0
@@ -8206,12 +8228,12 @@ packages:
       shell-quote: 1.7.3
       strip-ansi: 6.0.1
       text-table: 0.2.0
+      typescript: 4.7.4
+      webpack: 5.74.0
     transitivePeerDependencies:
       - eslint
       - supports-color
-      - typescript
       - vue-template-compiler
-      - webpack
     dev: false
 
   /react-dom/18.2.0_react@18.2.0:
@@ -8373,13 +8395,13 @@ packages:
       - webpack-plugin-serve
     dev: false
 
-  /react-spring/9.5.2_4s5fgi4ficat65f3svadl5hcry:
+  /react-spring/9.5.2_zft377bijpe65wcexxdwiqptlm:
     resolution: {integrity: sha512-OGWNgKi2TSjpqsK67NCUspaCgEvWcG7HcpO9KAaDLFzFGNxWdGdN3YTXhhWUqCsLAx9I6LxPzmRuUPsMNqTgrw==}
     dependencies:
       '@react-spring/core': 9.5.2_react@18.2.0
       '@react-spring/konva': 9.5.2_react@18.2.0
       '@react-spring/native': 9.5.2_react@18.2.0
-      '@react-spring/three': 9.5.2_6mtgxp5k6atzbvbbcnlc4nwv5q
+      '@react-spring/three': 9.5.2_jam5cszomvydnhypobnfwqwz6m
       '@react-spring/web': 9.5.2_biqbaboplfbrettd7655fr4n2y
       '@react-spring/zdog': 9.5.2_biqbaboplfbrettd7655fr4n2y
     transitivePeerDependencies:
